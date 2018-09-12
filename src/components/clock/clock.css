@@ -1,0 +1,52 @@
+.style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 220px;
+    border:1px solid #CCCCFF;
+    border-radius:50%;
+    transform:translate(50px,60px) skew(-20deg,10deg);
+    box-shadow: 10px 10px 30px #CCCCCC;
+}
+
+.style ul{margin:0; padding:0; height:220px; position:relative; list-style:none;}
+.style ul li{width:2px;  height:8px; background: #CCCCCC; position:absolute; -webkit-transform-origin:center 105px;}
+.style ul li:nth-of-type(1){-webkit-transform: rotate(0deg);}
+.style ul li:nth-of-type(2){-webkit-transform: rotate(90deg);}
+.style ul li:nth-of-type(3){-webkit-transform: rotate(180deg);}
+.style ul li:nth-of-type(4){-webkit-transform: rotate(270deg);}
+
+.container {
+  /*  flex-direction: row;
+    display: flex;*/
+    position: relative;
+}
+.container > div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, .4);
+    background-color: white;
+}
+
+.clockMinuteLine {
+    width: 3px;
+    height: 90px;
+    transform-origin: bottom;
+}
+
+.clockHourLine {
+    width: 4px;
+    height: 65px;
+    background-color: blue;
+    transform-origin: bottom;
+}
+
+.clockSecondLine {
+    width: 2px;
+    height: 100px;
+    background-color: gray;
+    transform-origin: bottom;
+}

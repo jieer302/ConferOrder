@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family:"Microsoft YaHei";
+}
+
+.wrapper {
+    background-color: #fff;
+}
+
+/*header样式*/
+.header{
+    background: -webkit-linear-gradient(top, rgba(24,144,255,0.6), rgba(24,144,255,0)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(bottom, rgba(24,144,255,0.6), rgba(24,144,255,0)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(bottom, rgba(24,144,255,0.6), rgba(24,144,255,0)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to bottom, rgba(24,144,255,0.6), rgba(24,144,255,0)); /* 标准的语法（必须放在最后）*/
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+.header h1{
+    font-size: 2.5em;
+    font-family:"Times New Roman";
+    font-style: italic;
+    text-shadow:#FF6600 5px 0px 10px;
+    color:white;
+}
+
+/*显示会议日历的样式*/
+.ConfCalendar{
+    width: 80%;
+    margin: 1% auto;
+}
+
+/*显示日历信息*/
+.events {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* 选择模态框样式*/
+.chooseModal{
+    display: flex;
+    justify-content: space-around;
+}
+/* 模态框提交按钮的样式*/
+.formSubmit{
+    margin-left: 40%;
+}
+
+/* 页面底部样式*/
+.footer{
+    text-align: center;
+}
