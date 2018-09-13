@@ -1,6 +1,6 @@
 # ConferOrder  
 
-A simple project that can order the conference
+A simple project that can order and query the conference
 
 ## Dependence Technology  
 
