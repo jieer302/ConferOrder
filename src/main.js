@@ -1,6 +1,4 @@
-/**
- * Created by swhy-wl on 2018/5/9.
- */
+
 import React from 'react'
 import ReactDom from 'react-dom'
 import { createStore } from 'redux'
