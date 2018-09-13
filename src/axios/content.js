@@ -1,6 +1,4 @@
-/**
- * Created by swhy-wl on 2018/8/3.
- */
+
 import axios from 'axios'
 import '../mock/conferMock'
 
