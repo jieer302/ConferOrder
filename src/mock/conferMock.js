@@ -1,6 +1,4 @@
-/**
- * Created by swhy-wl on 2018/8/2.
- */
+
 import Mock from 'mockjs'
 
 var list_brief = [
